@@ -4,5 +4,5 @@ const nameLable = document.querySelector('#name-output')
 console.log(nameLable);
 
 input.addEventListener('input', (event) => {
-    nameLable.textContent = event.currentTarget.value;
+    nameLable.textContent = event.currentTarget.value || 'Anonymus';
 });
