@@ -27,6 +27,7 @@ const createElements = createBtn.addEventListener('click', createBoxes);
         arreyElements = `<div style = "width: ${20 + options}px; height: ${20 + options}px; background-color: ${getRandomHexColor()}"></div>`;
         boxes.insertAdjacentHTML("beforeend", arreyElements)
       }
+      amount = '';
 };
 
 const destroyElements = destroyBtn.addEventListener('click', destroyBoxes);
